@@ -1,0 +1,14 @@
+(module JP-5 (layer F.Cu) (tedit 547E0B55)
+  (tags "JUMPER CONNECTOR")
+  (fp_text reference P2 (at -3.81 0 90) (layer F.SilkS) hide
+    (effects (font (size 0.3 0.3) (thickness 0.05)))
+  )
+  (fp_text value CONN-5 (at 0.75 -4) (layer F.SilkS) hide
+    (effects (font (size 0.6 0.6) (thickness 0.127)))
+  )
+  (pad 1 thru_hole circle (at -5.08 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at -2.54 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 4 thru_hole circle (at 2.54 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 5 thru_hole circle (at 5.08 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
+)

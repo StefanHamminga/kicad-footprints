@@ -1,0 +1,13 @@
+(module CRYSTAL_2-SMD_2x1.2mm (layer F.Cu) (tedit 53D53487)
+  (attr smd)
+  (fp_text reference CRYSTAL_2-SMD_2x1.2mm (at 0 -1.1) (layer F.SilkS)
+    (effects (font (size 0.6 0.6) (thickness 0.127)))
+  )
+  (fp_text value VAL** (at 0 0.4) (layer F.SilkS) hide
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
+  )
+  (fp_line (start 1 0.6) (end -1 0.6) (layer F.SilkS) (width 0.127))
+  (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.SilkS) (width 0.127))
+  (pad 1 smd rect (at -0.7 0) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.7 0) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask))
+)

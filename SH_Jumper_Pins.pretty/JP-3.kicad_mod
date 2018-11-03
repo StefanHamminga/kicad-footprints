@@ -1,0 +1,12 @@
+(module JP-3 (layer F.Cu) (tedit 54536A58)
+  (tags "JUMPER CONNECTOR")
+  (fp_text reference P1 (at -1 0 90) (layer F.SilkS) hide
+    (effects (font (size 0 0)))
+  )
+  (fp_text value CONN-3 (at 0 2) (layer F.SilkS)
+    (effects (font (size 0 0)))
+  )
+  (pad 1 thru_hole circle (at -2 0) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 0) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 2 0) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask))
+)

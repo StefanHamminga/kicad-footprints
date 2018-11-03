@@ -1,0 +1,18 @@
+(module Frame_85x35_M3_rounded (layer F.Cu) (tedit 591F19D7)
+  (solder_mask_margin -0.05)
+  (attr virtual)
+  (fp_text reference REF** (at -8.9 -18) (layer F.SilkS) hide
+    (effects (font (size 0.6 0.6) (thickness 0.125)))
+  )
+  (fp_text value Frame_85x35_M3_rounded (at 0 -18) (layer F.Fab) hide
+    (effects (font (size 0.6 0.6) (thickness 0.125)))
+  )
+  (pad 1 connect circle (at -38.6 -13.6) (size 7.8 7.8) (layers F.Cu F.Mask))
+  (pad 1 connect circle (at 38.6 -13.6) (size 7.8 7.8) (layers F.Cu F.Mask))
+  (pad 1 connect circle (at 38.6 13.6) (size 7.8 7.8) (layers F.Cu F.Mask))
+  (pad 1 connect circle (at -38.6 13.6) (size 7.8 7.8) (layers F.Cu F.Mask))
+  (pad 1 connect rect (at 0 -17.35) (size 77.2 0.3) (layers F.Cu F.Mask))
+  (pad 1 connect rect (at 0 17.35) (size 77.2 0.3) (layers F.Cu F.Mask))
+  (pad 1 connect rect (at -42.35 0) (size 0.3 27.2) (layers F.Cu F.Mask))
+  (pad 1 connect rect (at 42.35 0) (size 0.3 27.2) (layers F.Cu F.Mask))
+)

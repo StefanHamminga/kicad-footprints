@@ -1,0 +1,13 @@
+(module FIDU-SQUARE_SS (layer F.Cu) (tedit 543A49EE)
+  (solder_mask_margin 1.2)
+  (clearance 1.2)
+  (attr virtual)
+  (fp_text reference FD1 (at 0 -0.5) (layer F.SilkS) hide
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
+  )
+  (fp_text value FIDUCIAL_MARKER (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
+  )
+  (pad 1 connect rect (at 0 0) (size 0.6 0.6) (layers F.Cu F.Mask)
+    (solder_mask_margin 1.2) (clearance 1.2) (zone_connect 0))
+)

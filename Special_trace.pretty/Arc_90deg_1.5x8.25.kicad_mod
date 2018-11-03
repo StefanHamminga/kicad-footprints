@@ -1,0 +1,12 @@
+(module Arc_90deg_1.5x8.25 (layer F.Cu) (tedit 56EC4276)
+  (attr virtual)
+  (fp_text reference REF** (at 0 -1) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (fp_text value Arc (at -1 -1) (layer F.Fab) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (fp_arc (start 0 -8.25) (end 0 0) (angle 90) (layer F.Cu) (width 1.5))
+  (pad 1 connect circle (at 0 0) (size 1 1) (layers F.Cu))
+  (pad 2 connect circle (at -8.25 -8.25) (size 1 1) (layers F.Cu))
+)

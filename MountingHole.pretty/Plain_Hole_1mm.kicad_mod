@@ -1,0 +1,11 @@
+(module Plain_Hole_1mm (layer F.Cu) (tedit 57EAF20E)
+  (solder_mask_margin 0.03)
+  (attr virtual)
+  (fp_text reference REF** (at 0 1.4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Plain_Hole_1mm (at 0 -1.4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+)

@@ -1,0 +1,17 @@
+(module H36_drone_frame locked (layer F.Cu) (tedit 5BB9A3E1)
+  (fp_text reference LOGO1 (at 0 -42.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "H36 frame" (at 0 -44) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -41.5 -41.5) (end 41.5 -41.5) (layer F.Fab) (width 0.15))
+  (fp_line (start 41.5 -41.5) (end 41.5 41.5) (layer F.Fab) (width 0.15))
+  (fp_line (start 41.5 41.5) (end -41.5 41.5) (layer F.Fab) (width 0.15))
+  (fp_line (start -41.5 41.5) (end -41.5 -41.5) (layer F.Fab) (width 0.15))
+  (model ${KISYS3DMOD}/Electromechanical.3dshapes/H36_micro_drone_frame.step
+    (offset (xyz 0 0 -1.25))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 180))
+  )
+)

@@ -1,0 +1,15 @@
+(module FIDU-ROUND_DS (layer F.Cu) (tedit 53E8F4D1)
+  (solder_mask_margin 1.2)
+  (clearance 1.2)
+  (attr virtual)
+  (fp_text reference FD2 (at 0 -0.5) (layer F.SilkS) hide
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
+  )
+  (fp_text value FIDUCIAL_MARKER (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
+  )
+  (pad 1 connect circle (at 0 0) (size 0.6 0.6) (layers F.Cu F.Mask)
+    (solder_mask_margin 1.2) (clearance 1.2) (zone_connect 0))
+  (pad 1 connect circle (at 0 0) (size 0.6 0.6) (layers B.Cu B.Mask)
+    (solder_mask_margin 1.2) (clearance 1.2) (zone_connect 0))
+)

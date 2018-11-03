@@ -1,0 +1,11 @@
+(module Support_Hole_3mm (layer F.Cu) (tedit 5650F55B)
+  (attr virtual)
+  (fp_text reference REF** (at 0 -2.159) (layer F.SilkS) hide
+    (effects (font (size 0.6 0.6) (thickness 0.125)))
+  )
+  (fp_text value Support_Hole_3mm (at 0 3.683) (layer F.Fab)
+    (effects (font (size 0.6 0.6) (thickness 0.125)))
+  )
+  (fp_circle (center 0 0) (end 3 0) (layer B.CrtYd) (width 0.05))
+  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+)
