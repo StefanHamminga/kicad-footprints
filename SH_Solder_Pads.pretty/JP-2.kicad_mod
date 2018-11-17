@@ -1,0 +1,13 @@
+(module JP-2 (layer F.Cu) (tedit 5BEEAEA9)
+  (solder_mask_margin 0.1)
+  (fp_text reference JP1 (at 0 -1) (layer F.Fab)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (fp_text value PWRSRC (at 0 0.7) (layer F.Fab) hide
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (pad 2 connect rect (at 0.225 0) (size 0.25 1) (layers F.Cu))
+  (pad 1 connect rect (at -0.225 0) (size 0.25 1) (layers F.Cu))
+  (pad 4 connect rect (at 0 0) (size 0.7 0.8) (layers F.Mask))
+  (pad 5 smd roundrect (at 0 0) (size 0.8 1.2) (layers F.Paste) (roundrect_rratio 0.15))
+)

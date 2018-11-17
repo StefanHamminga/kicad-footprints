@@ -1,0 +1,12 @@
+(module 4P_1mm_1.2_pitch_2x2R (layer F.Cu) (tedit 5BEEE637)
+  (fp_text reference REF** (at 0 -1.7) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 4P_1mm_1.2_pitch_2x2R (at 0.1 1.4) (layer F.Fab) hide
+    (effects (font (size 0.25 0.25) (thickness 0.05)))
+  )
+  (pad 1 connect circle (at -0.6 -0.6) (size 1 1) (layers F.Cu F.Mask))
+  (pad 2 connect circle (at 0.6 -0.6) (size 1 1) (layers F.Cu F.Mask))
+  (pad 3 connect circle (at -0.6 0.6) (size 1 1) (layers F.Cu F.Mask))
+  (pad 4 connect circle (at 0.6 0.6) (size 1 1) (layers F.Cu F.Mask))
+)

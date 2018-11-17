@@ -1,11 +1,10 @@
-(module Net_tie_0.2x0.2 (layer F.Cu) (tedit 591C4110)
-  (fp_text reference REF** (at 0.2 -0.2) (layer F.SilkS) hide
+(module Net_tie_0.2x0.2 (layer F.Cu) (tedit 5BED07F0)
+  (fp_text reference KC2 (at 0.2 -0.2) (layer F.SilkS) hide
     (effects (font (size 0.127 0.127) (thickness 0.03175)))
   )
-  (fp_text value Net_tie_0.2x0.2 (at 0 0.2) (layer F.Fab) hide
+  (fp_text value Kelvin_Connection (at 0 0.2) (layer F.Fab) hide
     (effects (font (size 0.127 0.127) (thickness 0.03175)))
   )
-  (fp_line (start 0 0) (end 0.4 0) (layer F.Cu) (width 0.2))
-  (pad 1 smd circle (at 0 0) (size 0.2 0.2) (layers F.Cu))
   (pad 2 smd circle (at 0.4 0) (size 0.2 0.2) (layers F.Cu))
+  (pad 1 smd circle (at 0 0) (size 0.2 0.2) (layers F.Cu))
 )
