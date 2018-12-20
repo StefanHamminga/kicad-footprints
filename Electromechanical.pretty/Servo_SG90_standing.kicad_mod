@@ -1,4 +1,4 @@
-(module Servo_SG90_standing (layer F.Cu) (tedit 5B4AEF31)
+(module Servo_SG90_standing (layer F.Cu) (tedit 5C1BC5F3)
   (fp_text reference REF** (at 0 -3.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -30,7 +30,7 @@
   (pad 1 thru_hole circle (at 6.35 13.4) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -6.35 13.4) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -6.35 0.9) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole oval (at 0 -1.25) (size 14.4 2.6) (drill oval 14.4 2.6) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole oval (at 0 -1.25) (size 13.4 2.6) (drill oval 13.4 2.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole oval (at 0 10.8) (size 10.3 2.6) (drill oval 10.3 2.6) (layers *.Cu *.Mask))
   (model "${KISYS3DMOD}/Electromechanical.3dshapes/Tower Pro SG90 Servo v7.step"
     (offset (xyz 0 -15.7 -13.05))
