@@ -1,4 +1,4 @@
-(module Knowles_SPH0645LM4H-B_copy (layer F.Cu) (tedit 5B9FE3B0)
+(module Knowles_SPH0645LM4H-B (layer F.Cu) (tedit 5C1E0E89)
   (solder_mask_margin 0.04)
   (solder_paste_margin -0.01)
   (attr smd)
