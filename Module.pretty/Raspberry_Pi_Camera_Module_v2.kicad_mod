@@ -1,0 +1,17 @@
+(module Raspberry_Pi_Camera_Module_v2 (layer F.Cu) (tedit 5C1E2D1D)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Raspberry_Pi_Camera_Module_v2 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.05)))
+  )
+  (fp_line (start -12.25 -9.25) (end 12.25 -9.25) (layer F.Fab) (width 0.12))
+  (fp_line (start 12.25 -9.25) (end 12.25 14.25) (layer F.Fab) (width 0.12))
+  (fp_line (start 12.25 14.25) (end -12.25 14.25) (layer F.Fab) (width 0.12))
+  (fp_line (start -12.25 14.25) (end -12.25 -9.25) (layer F.Fab) (width 0.12))
+  (model ${KISYS3DMOD}/Module.3dshapes/Raspberry_Pi_Camera_Module_v2.stp
+    (offset (xyz -0.1 -2.4 3.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+)
