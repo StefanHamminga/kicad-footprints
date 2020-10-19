@@ -1,0 +1,23 @@
+(module "Creative_Commons_NC_Silkscreen" (layer "F.Cu") (tedit 5F8D6465)
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -1.55 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1997c782-dd2d-44ed-becf-6db7c3477893)
+  )
+  (fp_text value "Creative_Commons_CC" (at 0 2 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7e3d891b-2388-47f3-8ed2-713adb6aa94e)
+  )
+  (fp_text user "${REF}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4bc986a4-7b25-495b-be00-29f343ce293a)
+  )
+  (fp_line (start -0.075 0.425) (end -0.225 0.375) (layer "F.Mask") (width 0.15) (tstamp 0fc86fa0-d9c1-4cdf-aef6-3e4c07bdd827))
+  (fp_line (start 0 0) (end 0.675 0.3) (layer "F.Mask") (width 0.15) (tstamp 559b70ab-9a87-41b5-9e62-a65cc5a18c7e))
+  (fp_line (start -0.675 -0.3) (end 0 0) (layer "F.Mask") (width 0.15) (tstamp 5cca70b0-3001-47d6-9e0f-12a5d2c40056))
+  (fp_line (start 0.075 -0.425) (end 0.225 -0.375) (layer "F.Mask") (width 0.15) (tstamp c2b00952-3fbb-4115-a2ce-179449faa4a7))
+  (fp_line (start 0 -0.5) (end 0 0.5) (layer "F.Mask") (width 0.15) (tstamp dca3aa15-a8c8-4b15-9204-cef5cd502c83))
+  (fp_arc (start 0.008 0.2354) (end 0.1 0.05) (angle 177.3) (layer "F.Mask") (width 0.15) (tstamp 25b0491c-a73a-4b5a-9fa7-8c6a901ab342))
+  (fp_arc (start -0.008 -0.2354) (end -0.1 -0.05) (angle 177.3) (layer "F.Mask") (width 0.15) (tstamp 63a79a52-aa09-4bc0-b2ed-fdbd46a99017))
+  (fp_circle (center 0 0) (end 0.75 0) (layer "F.Mask") (width 0.15) (tstamp f4cd0675-11d1-45c3-ab17-49674bdde458))
+)

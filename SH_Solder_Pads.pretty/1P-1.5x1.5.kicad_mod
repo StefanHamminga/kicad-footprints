@@ -1,0 +1,11 @@
+(module "1P-1.5x1.5" (layer "F.Cu") (tedit 5F8A7F82)
+  (fp_text reference "REF**" (at 0 -1.75 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6b49545b-d555-4c52-9a89-64f342298543)
+  )
+  (fp_text value "1P-1.5x1.5" (at 0.025 -10.225 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp da97081b-43d7-411c-bdfb-74441ad35773)
+  )
+  (pad "1" connect roundrect (at 0 0) (size 1.5 1.5) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.067) (tstamp 5b53f990-8fe6-433a-899a-5e880cb647d4))
+)

@@ -1,0 +1,8 @@
+(module "USB_C_Receptacle_JAE_DX07S024JJ7" (layer F.Cu) (tedit 5E2EDE01)
+  (fp_text reference "REF**" (at 0 10.5 unlocked) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "USB_C_Receptacle_JAE_DX07S024JJ7" (at 0 9.5 unlocked) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.05)))
+  )
+)
