@@ -1,0 +1,23 @@
+(module "Vibration_Mount_M2x5.6" (layer "F.Cu") (tedit 5FB55013)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d42e0eb5-f7d3-4aa1-b4da-10508594de64)
+  )
+  (fp_text value "Vibration_Mount_M2x5.6" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f7cd5877-6624-419f-a9ad-eb3333e10957)
+  )
+  (fp_text user "${REF}" (at 0 1.9 unlocked) (layer "F.Fab")
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
+    (tstamp 52a2bd28-005b-4e46-9822-0d22e5cee515)
+  )
+  (fp_circle (center 0 0) (end 2.45 0) (layer "F.CrtYd") (width 0.05) (tstamp 73f311c9-a73b-411d-9716-3d752f411e96))
+  (fp_circle (center 0 0) (end 2.2 0) (layer "F.Fab") (width 0.05) (tstamp d96f3031-332d-4eb1-a571-9299a4f265f3))
+  (pad "1" thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3) (layers *.Cu *.Mask)
+    (solder_mask_margin -0.05) (tstamp 51a7e2b0-8007-48e6-b6d6-5b14f4bffa0e))
+  (model "${KISYS3DMOD}/MountingHole.3dshapes/Vibration_Rubber_M2x5.6.STEP"
+    (offset (xyz 0 0 2.8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
+)

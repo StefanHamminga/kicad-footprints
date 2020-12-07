@@ -1,13 +1,13 @@
-(module "Plain_Hole_1.5mm" (layer "F.Cu") (tedit 5FB90576)
+(module "Plain_Hole_2mm" (layer "F.Cu") (tedit 5FB90566)
   (solder_mask_margin 0.03)
   (attr exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 1.4) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0bfa465e-5c23-4bab-bde0-7bd4c3faea7a)
+    (tstamp 4ae568af-318a-42de-92fb-c854eb8b821a)
   )
   (fp_text value "1.5" (at 0 -1.4) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp ae6096a3-d625-4e5e-880e-3e88ee6e97c1)
+    (tstamp 4d000d29-42a6-4bc9-80c4-c7862363dfed)
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.5) (layers *.Mask) (tstamp 606c7040-3753-44ed-8dbe-2e045033720d))
+  (pad "" np_thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2) (layers *.Mask) (tstamp b85aa925-9220-439d-a4d8-3ce5ed93c841))
 )

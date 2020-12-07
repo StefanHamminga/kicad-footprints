@@ -1,0 +1,22 @@
+(module "Coin_2_euro" (layer "F.Cu") (tedit 5FB697E2)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9429df05-2b09-458a-af53-11027d5bfd34)
+  )
+  (fp_text value "Coin_2_euro" (at -0.025 -14.375 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 97842e08-db4e-452e-a4b4-9241d6a46fe8)
+  )
+  (fp_text user "${REF}" (at -0.025 -12.875 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 234cc888-35ae-4300-a81a-e8d6d74148c9)
+  )
+  (fp_circle (center 0.1 0) (end 13.1 0) (layer "F.SilkS") (width 0.01) (tstamp 961b1ae5-2c8c-469f-b01b-dfc8855d8db8))
+  (pad "1" thru_hole circle (at 0 0) (size 26 26) (drill 0.762) (layers *.Cu *.Mask) (tstamp 01912af6-2414-4b37-bf94-9205b7216890))
+  (model "${KISYS3DMOD}/Hardware.3dshapes/Coin_2_euro.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.393700787401 0.393700787401 0.393700787401))
+    (rotate (xyz -90 0 0))
+  )
+)
