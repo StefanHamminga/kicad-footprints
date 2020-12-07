@@ -4,11 +4,9 @@ Modified and extra footprints extending the standard library. Most are created b
 
 ## Notes
 
-1. Not all of these comply with the KLC. Some on purpose, so no, I'll not be changing them all. But if you have individual suggestions I'll be happy to take a look.
+1. Not all of these comply with the KLC, some by design.
 2. These footprints are normally according to the part datasheet and designed for reflow soldering.
 3. KiCad team: Feel free to move whichever parts you like to the main repo.
-
-
 
 ## License and repo
 
