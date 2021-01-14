@@ -1,0 +1,16 @@
+(footprint "1P_6.5x4_SQ" (version 20201116) (generator pcbnew) (layer "F.Cu")
+  (tedit 5FF9C61B)
+  (fp_text reference "REF**" (at -4 0 90 unlocked) (layer "F.SilkS")
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+    (tstamp 684af6b2-7d6a-49f1-bcfc-ab702c1a9275)
+  )
+  (fp_text value "1P_6.5x4_SQ" (at -0.1 -8.725 unlocked) (layer "F.Fab") hide
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
+    (tstamp d5108ddf-a77c-4f6e-b457-eae4e4f908dd)
+  )
+  (fp_text user "${REF}" (at -0.1 -7.225 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ba10a744-8143-4a88-8ebf-7d719ddde508)
+  )
+  (pad "1" connect rect (at 0 0) (size 6.5 4) (layers "F.Cu" "F.Mask") (tstamp dca8cb00-b374-4e12-8f41-ffd917025e36))
+)
