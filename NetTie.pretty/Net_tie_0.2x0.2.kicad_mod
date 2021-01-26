@@ -1,10 +1,18 @@
-(module Net_tie_0.2x0.2 (layer F.Cu) (tedit 5BED07F0)
-  (fp_text reference KC2 (at 0.2 -0.2) (layer F.SilkS) hide
+(footprint "Net_tie_0.2x0.2" (version 20210108) (generator pcbnew) (layer "F.Cu")
+  (tedit 600716AF)
+  (property "Sheet file" "BrushedMotorController18V15A.kicad_sch")
+  (property "Sheet name" "")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "KC1" (at 0.2 -0.2 -180) (layer "F.SilkS") hide
     (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    (tstamp fb9c5f8f-3bcb-42a2-9601-c8c098b45f5f)
   )
-  (fp_text value Kelvin_Connection (at 0 0.2) (layer F.Fab) hide
+  (fp_text value "Kelvin_Connection" (at 0 0.199999 -180) (layer "F.Fab") hide
     (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    (tstamp d40dd552-4742-42c2-8204-91b02013654e)
   )
-  (pad 2 smd circle (at 0.4 0) (size 0.2 0.2) (layers F.Cu))
-  (pad 1 smd circle (at 0 0) (size 0.2 0.2) (layers F.Cu))
+  (pad "1" smd circle (at 0 0) (locked) (size 0.2 0.2) (layers "F.Cu")
+    (zone_connect 0) (tstamp b8966dab-6e05-408e-8c23-a6bb23eea6d2))
+  (pad "2" smd circle (at 0.4 0) (locked) (size 0.2 0.2) (layers "F.Cu")
+    (zone_connect 0) (tstamp d735d86e-b898-4426-8ea1-496cf65d175f))
 )
